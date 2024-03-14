@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
+body{
+  margin: 10px 80px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+nav {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+nav h1{
+  font-family: 'Crimson Text', serif;
+  font-size: 40px;
+}
+nav .en-tete{
+  margin-top: 38px;
+}
+nav .en-tete a{
+  text-decoration: none;
+  color:#7f7e7e;
+  margin-right: 10px;
+}
+
+
+
+.corps {
+    margin-top: 30px;
+}
+.corps h1{
+  text-align: center;
+}
+.corps .corps {
+    display: flex;
+    margin-bottom: 30px;
+} 
+
+/*image*/
+
+.left {
+    width: 480px;
+    height: 320px;
+    position: relative;
+}
+
+.image__nav__button--next {
+    right: 20px;
+}
+
+.image__nav__button--prev {
+    left: 20px;
+}
+
+.image__nav__button {
+    position: absolute;
+top: 50%;
+transform: translateY(-50%);
+cursor: pointer;
+transition: 0.3s all ease-in-out;
+}
+
+.image__nav__button:hover {
+    transform: translateY(-50%) scale(1.1);
+}
+
+.image__nav__button  {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+      width: 50px;
+    height: 50px;
+  }
+
+  .image__content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+
+  .image__content1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+
+  .image__content2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+
+  .image__content3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+
+  /*text*/
+
+.right {
+ 
+  margin-top: -20px;
+ margin-left: 40px;
+}
